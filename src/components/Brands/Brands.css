@@ -1,0 +1,7 @@
+.composition {
+  background-image: url('./images/screen.png'), url('./images/iphone.png'), url('./images/bigCircle.png');
+  background-repeat: no-repeat;
+  background-position: 50px 187px, 0 115px, 54px 0;
+  width: 500px;
+  height: 755px;
+}
