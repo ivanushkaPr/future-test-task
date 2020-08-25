@@ -13,6 +13,8 @@ import styled from 'styled-components';
 const StackingContext = styled.div`
 position: relative;`;
 
+
+
 function App() {
   return (
     <div className="App">
@@ -20,6 +22,7 @@ function App() {
       <Trends/>
       <Brands/>
       <StackingContext>
+
         <Showcase/>
         <Newsletter/>
       </StackingContext>

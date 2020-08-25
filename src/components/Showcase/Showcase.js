@@ -2,19 +2,34 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import Categories from './Categories/Categories'
 import ProductCard from './ProductCard/ProductCard';
-import state from './initialState';
 import initialState from './initialState';
+import circle from './images/circle.png';
+import square from './images/square.png';
+import triangle from './images/bigTriangle.png';
+import transTriangle from './images/transTriangle.png';
+import line from './images/line.png'
+
 
 const Container = styled.div`
-margin-top: 103px;
+background-image: url(${triangle}), url(${line});
+background-repeat: no-repeat;
+background-position: 163px 38px, 801px 52px;
+margin-top: 84px;
 background-color: white;
-position: relative;
+position: static;
 margin-left: 123px;
 margin-right: 95px;
 padding-bottom: 65px;
 border-top: 0.1px solid transparent;
 box-shadow: 0px 5px 47.5px 2.5px rgba(237, 235, 253, 0.75);
 align-content: stretch;
+`;
+
+const Figure = styled.img`
+position: absolute;
+background-image: url(${props => props.src});
+top: ${props => props.top};
+left: ${props => props.left};
 `;
 
 const Products = styled.div`
@@ -50,9 +65,13 @@ const Showcase = props => {
       active: category
     })
   }
+
   return (
     <Container>
         <Title> Our Showcase </Title>
+        <Figure src={circle} left={'257px'} top={'256px'}/>
+        <Figure src={transTriangle} left={'65px'} top={'868px'}/>
+        <Figure src={square} left={'1485px'} top={'477px'}/>
       <Categories click={onClickCategoryHandler} data={state}/>
       <Products>
         {

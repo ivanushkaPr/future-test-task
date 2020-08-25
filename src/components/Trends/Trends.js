@@ -1,9 +1,37 @@
+
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Product from './Product/Product';
 import productState from './productsState';
 
+
+import bigCircle from './images/bigCircle.png';
+import smallTriangle from './images/transTriangle.png';
+import bigSquare from './images/bigSquare.png'
+import square from './images/square.png'
+import triangle from './images/triangle.png';
+import zigzag from './images/zigzag.png';
+
+const Wrapper = styled.div`
+  position: relative;
+  background-image: url(${bigCircle}), url(${bigSquare});
+  background-size: 144px, 88px;
+  background-position: 37px 393px, 1442px 1110px;
+  background-repeat: no-repeat;
+`;
+
+const Figure = styled.img`
+position: absolute;
+top: ${props => props.top};
+left: ${props => props.left};
+z-index: 1000;`;
+
+
 const Container = styled.section`
+  background-image: url(${triangle}), url(${zigzag});
+  background-size: 109px 108px, 33px 60px;
+  background-position: 230px 91px, 1215px 58px;
+  background-repeat: no-repeat;
   margin: 0px 110px;
   margin-top: -111px;
   padding-bottom: 88px;
@@ -39,7 +67,11 @@ const Trends = props => {
   }
 
   return (
-    <Container>
+    <Wrapper>
+      <Figure top={'477px'} left={'1431px'} width={109} height={109} src={square}/>
+      <Figure top={'1136px'} left={'60px'} width={91} height={91} src={smallTriangle}/>
+ 
+      <Container>
       <Trend>
         trendy arrivals
       </Trend>
@@ -50,8 +82,8 @@ const Trends = props => {
           return <Product key={bag.id} data={bag}/>
         })}
       </Products>
-      
     </Container>
+    </Wrapper>
   );
 }
 
