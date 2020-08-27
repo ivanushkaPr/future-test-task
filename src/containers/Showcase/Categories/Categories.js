@@ -7,6 +7,12 @@ const Menu = styled.nav`
   background-color: white;
   margin: 0 149px;
   margin-top: 114px;
+
+  @media(max-width: 1024px) {
+    margin: 0 25px;
+    margin-top: 114px;
+    
+  }
 `;
 
 const List = styled.ul`
@@ -19,9 +25,32 @@ const List = styled.ul`
   min-width: 1065px;
   list-style-type: none;
   display: flex;
-  justify-content: space-between;`;
+  justify-content: space-between;
+  
+  @media(max-width: 1500px) {
+    min-width: auto;
+  }
 
-const Category = styled.li``;
+  @media(max-width: 1024px) {
+    flex-wrap: wrap;
+    
+  }
+
+  @media(max-width: 768px) {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  @media(max-width: 400px) {
+    flex-direction: column;
+  }
+  `;
+
+const Category = styled.li`
+@media(max-width: 400px) {
+  margin: 10px 0px;
+}
+`;
 
 const Link = styled.a`
   font-family: 'OpenSans-SemiBold';

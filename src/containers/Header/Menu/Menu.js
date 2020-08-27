@@ -5,9 +5,10 @@ import searchIcon from './images/sr.png';
 
 
 const Navigation = styled.nav`
+
   position: relative;
   display: flex;  
-  width: 31.7%;
+  width: 370px;
   padding-top: 14px;
   padding-bottom: 14px;
   box-sizing: border-box;
@@ -16,6 +17,15 @@ const Navigation = styled.nav`
   border-radius: ${props => props.isModalShown === false ? '30px' : '30px 30px 0px'};
   transition-property: border-radius;
   transition-duration: ${props => props.isModalShown === false ? "2s" : "0.3s"};
+
+  @media(max-width: 415px) {
+    width: 300px;
+    flex-direction: column;
+    background-color: white;
+    max-height: inherit;
+    margin: 0 auto;
+    padding: 0px;
+  }
 `;
 
 const SearchContainer = styled.div`
@@ -23,6 +33,14 @@ const SearchContainer = styled.div`
   align-items: center;
   width: 49%;
   border-right: 1px solid black;
+
+  @media(max-width: 415px) {
+    width: 100%;
+    justify-content: center;
+    border-right: none;
+    border-bottom: 1px solid black;
+    padding: 18px 0px;
+  }
  `;
 
 const SearchButton = styled.button`
@@ -57,6 +75,10 @@ const ListContainer = styled.div`
   align-items: center;
   width: 51%;
   position: relative;
+  @media(max-width: 415px) {
+    width: 100%;
+    justify-content: center;
+  }
   `;
 
 const List = styled.ul`

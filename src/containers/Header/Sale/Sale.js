@@ -6,7 +6,19 @@ const Ad = styled.div`
   position: absolute;
   text-align: left;
   right: 205px;
-  top: 332px;`;
+  top: 332px;
+  @media(max-width: 768px) {
+    right: 0px;
+  }
+
+  @media(max-width: 415px) {
+    position: static;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+
+  `;
 
 const Collection = styled.p`
   text-transform: capitalize;
@@ -15,6 +27,21 @@ const Collection = styled.p`
   font-size: 87pt;
   line-height: 87pt;
   color: ${props => props.black === true ? '#151515' : 'white'};
+
+  @media(max-width: 768px) {
+    text-shadow: 0px 0px 3px black;
+  }
+  
+
+  @media(max-width: 415px) {
+    font-size: 75px;
+    line-height: 60px;
+  }
+
+  @media(max-width: 320px) {
+    font-size: 55px;
+    line-height: 45px;
+  }
 `;
 
 const Discount = styled.p`
@@ -25,6 +52,11 @@ const Discount = styled.p`
   line-height: 80pt;
   color: white;
   text-transform: uppercase;
+
+  @media(max-width: 768px) {
+    margin-left: 0px;
+    text-shadow: 0px 0px 3px black;
+  }
 `;
 
 const Price = styled.span`
@@ -47,6 +79,13 @@ const GetDetails = styled.div`
   border-radius: 27px;
   border: none;
   max-width: 200px;
+
+  @media(max-width: 415px) {
+    top: 0;
+    left: 0;
+    position: relative;
+    margin: 0 auto;
+  }
 `;
 
 const GetDetailsSubmit = styled.button`
@@ -59,6 +98,22 @@ const GetDetailsSubmit = styled.button`
   padding: 0px;
   margin: 0px;
   background-color: transparent;
+
+@media(max-width: 1024px) {
+  font-size: 45px;
+  top: 0px;
+  right: 30px;
+}
+
+@media(max-width: 1024px) {
+  font-size: 45px;
+  top: 0px;
+  right: 30px;
+}
+
+
+
+
 `;
 const Sale = props => {
   return (

@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header/Header';
+import Header from './containers/Header/Header';
 import Trends from './components/Trends/Trends';
 import Brands from './components/Brands/Brands';
-import Showcase from './components/Showcase/Showcase';
+import Showcase from './containers/Showcase/Showcase';
 
 import Newsletter from './components/Newsletter/Newsletter';
 import Footer from './components/Footer/Footer';
@@ -12,8 +12,6 @@ import styled from 'styled-components';
 
 const StackingContext = styled.div`
 position: relative;`;
-
-
 
 function App() {
   return (

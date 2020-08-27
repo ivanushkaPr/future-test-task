@@ -23,6 +23,15 @@ padding-bottom: 65px;
 border-top: 0.1px solid transparent;
 box-shadow: 0px 5px 47.5px 2.5px rgba(237, 235, 253, 0.75);
 align-content: stretch;
+
+@media(max-width: 768px) {
+  margin: 0px 100px;
+}
+
+@media(max-width: 415px) {
+  margin: 0px 25px;
+}
+
 `;
 
 const Figure = styled.img`
@@ -32,6 +41,34 @@ top: ${props => props.top};
 left: ${props => props.left};
 `;
 
+const Circle = styled.img`
+position: absolute;
+background-image: url(${props => props.src});
+top: ${props => props.top};
+left: ${props => props.left};
+
+@media(max-width: 1565px) {
+  left: 1300px;
+}
+
+@media(max-width: 1355px) {
+  display: none;
+}`;
+
+const Square = styled.img`
+position: absolute;
+background-image: url(${props => props.src});
+top: ${props => props.top};
+left: ${props => props.left};
+
+@media(max-width: 1565px) {
+  left: 1300px;
+}
+
+@media(max-width: 1355px) {
+  display: none;
+}`;
+
 const Products = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -39,6 +76,16 @@ const Products = styled.div`
   align-items: stretch;
   margin-left: 107px;
   margin-right: 109px;
+
+  @media(max-width: 1024px) {
+    margin: 0px 25px; 
+  }
+
+  @media(max-width: 768px) {
+    justify-content: center;
+  }
+
+  
 `;
 
 const Title = styled.h5`
@@ -46,6 +93,9 @@ margin-top: 100px;
 font-family: OpenSans-Bold;
 font-size: 50px;
 line-height: 26px;
+@media(max-width: 400px) {
+  line-height: 50px;
+}
 `;
 
 const Showcase = props => {
@@ -69,9 +119,9 @@ const Showcase = props => {
   return (
     <Container>
         <Title> Our Showcase </Title>
-        <Figure src={circle} left={'257px'} top={'256px'}/>
+        <Circle src={circle} left={'257px'} top={'256px'}/>
         <Figure src={transTriangle} left={'65px'} top={'868px'}/>
-        <Figure src={square} left={'1485px'} top={'477px'}/>
+        <Square src={square} left={'1485px'} top={'477px'}/>
       <Categories click={onClickCategoryHandler} data={state}/>
       <Products>
         {

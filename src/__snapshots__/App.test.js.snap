@@ -1,0 +1,469 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-AxmLO hvfItH"
+>
+  <h5
+    className="sc-fzpans iayjxY"
+  >
+     Our Showcase 
+  </h5>
+  <img
+    className="sc-fzozJi kNkiiB"
+    src="circle.png"
+  />
+  <img
+    className="sc-fzozJi boqogr"
+    src="transTriangle.png"
+  />
+  <img
+    className="sc-fzozJi fkFyoD"
+    src="square.png"
+  />
+  <nav
+    className="sc-AxjAm fTPNHu"
+  >
+    <ul
+      className="sc-AxirZ feCToI"
+    >
+      <li
+        className="sc-AxiKw bOTXee"
+        data-category="Fashion"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-AxhCb kSSttd"
+        >
+          Fashion
+        </a>
+      </li>
+      <li
+        className="sc-AxiKw bOTXee"
+        data-category="Furnitures"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-AxhCb kSSttd"
+        >
+          Furnitures
+        </a>
+      </li>
+      <li
+        className="sc-AxiKw bOTXee"
+        data-category="Watches"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-AxhCb lpfXDb"
+        >
+          Watches
+        </a>
+      </li>
+      <li
+        className="sc-AxiKw bOTXee"
+        data-category="Mobile"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-AxhCb kSSttd"
+        >
+          Mobile
+        </a>
+      </li>
+      <li
+        className="sc-AxiKw bOTXee"
+        data-category="Cloth"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-AxhCb kSSttd"
+        >
+          Cloth
+        </a>
+      </li>
+      <li
+        className="sc-AxiKw bOTXee"
+        data-category="Toys"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-AxhCb kSSttd"
+        >
+          Toys
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div
+    className="sc-fzoLsD fGoMsa"
+  >
+    <div
+      className="sc-AxhUy bkLdaw"
+    >
+      <img
+        className="sc-AxgMl igILJB"
+        src="watch1.png"
+      />
+      <p
+        className="sc-AxheI dWsJZJ"
+      >
+         
+        Fashion Genuine Chain Watch
+         
+      </p>
+      <p
+        className="sc-Axmtr kciBKh"
+      >
+         $ 
+        25.36
+         
+      </p>
+    </div>
+    <div
+      className="sc-AxhUy bkLdaw"
+    >
+      <img
+        className="sc-AxgMl igILJB"
+        src="watch2.png"
+      />
+      <p
+        className="sc-AxheI dWsJZJ"
+      >
+         
+        Fashion Silver Chain Watch
+         
+      </p>
+      <p
+        className="sc-Axmtr kciBKh"
+      >
+         $ 
+        35.24
+         
+      </p>
+    </div>
+    <div
+      className="sc-AxhUy bkLdaw"
+    >
+      <img
+        className="sc-AxgMl igILJB"
+        src="watch3.png"
+      />
+      <p
+        className="sc-AxheI dWsJZJ"
+      >
+         
+        Fashion Chain Watch
+         
+      </p>
+      <p
+        className="sc-Axmtr kciBKh"
+      >
+         $ 
+        23.12
+         
+      </p>
+    </div>
+    <div
+      className="sc-AxhUy bkLdaw"
+    >
+      <img
+        className="sc-AxgMl igILJB"
+        src="watch4.png"
+      />
+      <p
+        className="sc-AxheI dWsJZJ"
+      >
+         
+        Fashion Black Chain Watch
+         
+      </p>
+      <p
+        className="sc-Axmtr kciBKh"
+      >
+         $ 
+        42.32
+         
+      </p>
+    </div>
+    <div
+      className="sc-AxhUy bkLdaw"
+    >
+      <img
+        className="sc-AxgMl igILJB"
+        src="watch5.png"
+      />
+      <p
+        className="sc-AxheI dWsJZJ"
+      >
+         
+        Fashion Lether Watch
+         
+      </p>
+      <p
+        className="sc-Axmtr kciBKh"
+      >
+         $ 
+        15.20
+         
+      </p>
+    </div>
+    <div
+      className="sc-AxhUy bkLdaw"
+    >
+      <img
+        className="sc-AxgMl igILJB"
+        src="watch6.png"
+      />
+      <p
+        className="sc-AxheI dWsJZJ"
+      >
+         
+        Fashion Forign Watch
+         
+      </p>
+      <p
+        className="sc-Axmtr kciBKh"
+      >
+         $ 
+        36.20
+         
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly 2`] = `
+<div
+  className="sc-AxmLO hvfItH"
+>
+  <h5
+    className="sc-fzpans iayjxY"
+  >
+     Our Showcase 
+  </h5>
+  <img
+    className="sc-fzozJi kNkiiB"
+    src="circle.png"
+  />
+  <img
+    className="sc-fzozJi boqogr"
+    src="transTriangle.png"
+  />
+  <img
+    className="sc-fzozJi fkFyoD"
+    src="square.png"
+  />
+  <nav
+    className="sc-AxjAm fTPNHu"
+  >
+    <ul
+      className="sc-AxirZ feCToI"
+    >
+      <li
+        className="sc-AxiKw bOTXee"
+        data-category="Fashion"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-AxhCb kSSttd"
+        >
+          Fashion
+        </a>
+      </li>
+      <li
+        className="sc-AxiKw bOTXee"
+        data-category="Furnitures"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-AxhCb kSSttd"
+        >
+          Furnitures
+        </a>
+      </li>
+      <li
+        className="sc-AxiKw bOTXee"
+        data-category="Watches"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-AxhCb lpfXDb"
+        >
+          Watches
+        </a>
+      </li>
+      <li
+        className="sc-AxiKw bOTXee"
+        data-category="Mobile"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-AxhCb kSSttd"
+        >
+          Mobile
+        </a>
+      </li>
+      <li
+        className="sc-AxiKw bOTXee"
+        data-category="Cloth"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-AxhCb kSSttd"
+        >
+          Cloth
+        </a>
+      </li>
+      <li
+        className="sc-AxiKw bOTXee"
+        data-category="Toys"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-AxhCb kSSttd"
+        >
+          Toys
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div
+    className="sc-fzoLsD fGoMsa"
+  >
+    <div
+      className="sc-AxhUy bkLdaw"
+    >
+      <img
+        className="sc-AxgMl igILJB"
+        src="watch1.png"
+      />
+      <p
+        className="sc-AxheI dWsJZJ"
+      >
+         
+        Fashion Genuine Chain Watch
+         
+      </p>
+      <p
+        className="sc-Axmtr kciBKh"
+      >
+         $ 
+        25.36
+         
+      </p>
+    </div>
+    <div
+      className="sc-AxhUy bkLdaw"
+    >
+      <img
+        className="sc-AxgMl igILJB"
+        src="watch2.png"
+      />
+      <p
+        className="sc-AxheI dWsJZJ"
+      >
+         
+        Fashion Silver Chain Watch
+         
+      </p>
+      <p
+        className="sc-Axmtr kciBKh"
+      >
+         $ 
+        35.24
+         
+      </p>
+    </div>
+    <div
+      className="sc-AxhUy bkLdaw"
+    >
+      <img
+        className="sc-AxgMl igILJB"
+        src="watch3.png"
+      />
+      <p
+        className="sc-AxheI dWsJZJ"
+      >
+         
+        Fashion Chain Watch
+         
+      </p>
+      <p
+        className="sc-Axmtr kciBKh"
+      >
+         $ 
+        23.12
+         
+      </p>
+    </div>
+    <div
+      className="sc-AxhUy bkLdaw"
+    >
+      <img
+        className="sc-AxgMl igILJB"
+        src="watch4.png"
+      />
+      <p
+        className="sc-AxheI dWsJZJ"
+      >
+         
+        Fashion Black Chain Watch
+         
+      </p>
+      <p
+        className="sc-Axmtr kciBKh"
+      >
+         $ 
+        42.32
+         
+      </p>
+    </div>
+    <div
+      className="sc-AxhUy bkLdaw"
+    >
+      <img
+        className="sc-AxgMl igILJB"
+        src="watch5.png"
+      />
+      <p
+        className="sc-AxheI dWsJZJ"
+      >
+         
+        Fashion Lether Watch
+         
+      </p>
+      <p
+        className="sc-Axmtr kciBKh"
+      >
+         $ 
+        15.20
+         
+      </p>
+    </div>
+    <div
+      className="sc-AxhUy bkLdaw"
+    >
+      <img
+        className="sc-AxgMl igILJB"
+        src="watch6.png"
+      />
+      <p
+        className="sc-AxheI dWsJZJ"
+      >
+         
+        Fashion Forign Watch
+         
+      </p>
+      <p
+        className="sc-Axmtr kciBKh"
+      >
+         $ 
+        36.20
+         
+      </p>
+    </div>
+  </div>
+</div>
+`;

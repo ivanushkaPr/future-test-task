@@ -15,16 +15,29 @@ const Container = styled.div`
   background-image: url(${line}), url(${triangle}), url(${zigzag});
   background-position: 451px 225px,170px 711px, 1388px 483px;
   background-repeat: no-repeat;
+
+  @media(max-width: 1465px) {
+    padding: 20px 100px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 215px;
+  }
+
+  @media(max-width: 415px) {
+    padding: 20px;
+  }
+
+  @media(max-width: 400px) {
+    padding: 10px;
+  }
+
+  @media(max-width: 320px) {
+    padding: 0px;
+  }
 `;
 
 const Wrapper = styled.div`
 `;
-
-const IPhone = styled.img``;
-
-const Circle = styled.img``;
-
-const ZigZag = styled.img``;
 
 const Brands = props => {
 

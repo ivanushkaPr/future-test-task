@@ -18,13 +18,31 @@ const Wrapper = styled.div`
   background-size: 144px, 88px;
   background-position: 37px 393px, 1442px 1110px;
   background-repeat: no-repeat;
-`;
 
-const Figure = styled.img`
+  @media(max-width: 1565px) {
+    background-position: 37px 393px, 1300px 1110px;
+  }
+`
+
+
+const Square = styled.img`
 position: absolute;
 top: ${props => props.top};
 left: ${props => props.left};
-z-index: 1000;`;
+z-index: 1000;
+
+@media(max-width: 1565px) {
+  display: none;
+}
+`;
+
+const Triangle = styled.img`
+position: absolute;
+top: ${props => props.top};
+left: ${props => props.left};
+z-index: 1000;
+`;
+
 
 
 const Container = styled.section`
@@ -38,6 +56,10 @@ const Container = styled.section`
   background-color: white;
   min-height: 200px;
   box-shadow: 0px 5px 47.5px 2.5px rgba(237, 235, 253, 0.75);
+
+  @media(max-width: 415px) {
+    margin: 0px 10px;
+  }
   `;
 
 const Trend = styled.h1`
@@ -47,6 +69,10 @@ const Trend = styled.h1`
   font-size: 50px;
   line-height: 26px;
   text-transform: capitalize;
+
+  @media(max-width: 400px) {
+    line-height: 55px;
+  }
   `;
 
 const Products = styled.div`
@@ -56,20 +82,21 @@ const Products = styled.div`
   margin-left: 101px;
   margin-right: 108px;
   margin-top: 91px;
+
+  @media(max-width: 1024px) {
+    margin: 0 auto;
+    margin-top: 91px;
+    justify-content: space-around;
+  }
 `;
 
 const Trends = props => {
   const [bags, setBags] = useState(productState);
 
-
-  const onMouseOver = (e) => {
-
-  }
-
   return (
     <Wrapper>
-      <Figure top={'477px'} left={'1431px'} width={109} height={109} src={square}/>
-      <Figure top={'1136px'} left={'60px'} width={91} height={91} src={smallTriangle}/>
+      <Square top={'477px'} left={'1431px'} width={109} height={109} src={square}/>
+      <Triangle top={'1136px'} left={'60px'} width={91} height={91} src={smallTriangle}/>
  
       <Container>
       <Trend>

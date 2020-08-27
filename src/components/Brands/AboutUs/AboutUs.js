@@ -31,6 +31,10 @@ font-family: OpenSans-Regular;
 white-space: pre-line;
 letter-spacing: 0.015em;
 line-height: 26px;
+
+@media(max-width: 1465px) {
+  white-space: normal;
+}
 `;
 
 

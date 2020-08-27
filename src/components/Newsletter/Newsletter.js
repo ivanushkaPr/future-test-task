@@ -28,6 +28,14 @@ const Label = styled.label`
 position: relative;
 margin-top: 39px;
 display: inline-block;
+
+@media(max-width: 768px) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 25px;
+}
 `;
 
 const Email = styled.input`
@@ -43,7 +51,21 @@ font-family: OpenSans-Regular;
 font-size: 20px;
 line-height: 26px;
 border: none;
+margin-bottom: 5px;
 
+@media(max-width: 768px) {
+  min-width: 500px;
+}
+
+@media(max-width: 415px) {
+  margin-bottom: 25px;
+  min-width: 350px;
+  box-shadow: 0px 0px 10px 1px purple;
+}
+
+@media(max-width: 400px) {
+  min-width: 300px;
+}
 `;
 
 
@@ -59,6 +81,10 @@ background-image: linear-gradient( 62deg,rgb(140,132,249) 0%,rgb(156,108,245) 10
 font-size: 20px;
 line-height: 26px;
 font-family: MyriadPro-Regular;
+
+@media(max-width: 415px) {
+  position: static;
+}
 }
 `;
 

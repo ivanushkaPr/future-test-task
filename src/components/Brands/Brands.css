@@ -5,3 +5,23 @@
   width: 500px;
   height: 755px;
 }
+
+@media(max-width: 415px) {
+  .composition {
+    width: 100%;
+    
+  }
+}
+
+@media(max-width: 400px) {
+  .composition {
+    width: 100%;
+    
+  }
+}
+
+  @media(max-width: 320px) {
+    .composition {
+      background-position: 20px 187px, -30px 115px, -85px 0px;
+    }
+}

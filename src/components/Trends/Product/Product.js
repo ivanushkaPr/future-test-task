@@ -21,6 +21,10 @@ const Product = styled.div`
     &:hover {
       box-shadow: 0px 5px 47.5px 2.5px rgba(221,223,224,0.75);
     }
+
+    @media(max-width: 1024px) {
+      flex-basis: 300px;
+    }
 `;
 
   const Rating = styled.div`
